@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>调查表格</title>
+</head>
+<body>
+
+<h1>调查表格</h1>
+<p>请填写以下信息：</p>
+    <form action="https://www.bilibili.com/video/BV1mrrYYEEHW/?spm_id_from=333.337.search-card.all.click&vd_source=23c3623265d1820b75efd2845cd16c8a" method="get">
+        <label for="name">姓名:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">年龄:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="gender">性别:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">男</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">女</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">其他</label><br><br>
+        <label for="species">您的物种:</label>
+        <select id="species" name="species" required>
+            <option value="human">哥斯拉</option>
+            <option value="elf">哥布林</option>
+            <option value="dwarf">咯咯哒</option>
+        <input type="submit" value="提交">
+        </select>
+         </body>
+</html>
